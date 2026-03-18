@@ -1,0 +1,31 @@
+# Data files (too large for GitHub)
+data/*
+!data/.gitkeep
+*.csv
+
+# Generated outputs (reproducible from scripts)
+**/output_current/
+**/output_historical/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
